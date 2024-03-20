@@ -1,0 +1,87 @@
+body,
+h1{
+  margin: 0px;
+  padding: 50px;
+}
+
+/* Style body */
+body {
+  background-color: #c2a189;
+}
+
+/* Style heading */
+h1 {
+  font-family: Madimi One, sans-serif;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  background-color: #f1ccaa;
+  border: 2px solid #333; /* Add border property */
+  padding: 20px; /* Adjust padding to accommodate the border */
+  border-radius: 10px; /* Add border-radius property */
+}
+
+/* Style h2 */
+h2 {
+  font-family: Madimi One, sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Style paragraph */
+p {
+  font-family: Madimi One, sans-serif;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+/* Center content */
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 2px solid #333;
+  background-color: #f1ccaa;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+/* Style fox image */
+.fox-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+
+/* Style button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Madimi One, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6f00;
+}
