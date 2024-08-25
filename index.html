@@ -22,7 +22,13 @@
     <h1>Cubit Cards</h1>
     <div class="container">
       <div class="content">
-        <script>object.addEventListener("load", tcgSDK.js);</script>
+        <script src="tcgSDK.js"></script>
+        <script>
+          window.addEventListener('load', function() {
+            // Code to run when the page has finished loading
+            // Call any functions or perform any actions related to tcgSDK.js here
+          });
+        </script>
         <p>
           In the meantime, you can contact us at
           <a href="mailto:info@cubitcards.com">info@cubitcards.com</a>
